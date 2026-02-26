@@ -18,7 +18,7 @@ module.exports.config = {
 
 module.exports.run = async ({ api, event }) => {
  const imgLinks = [
- "https://i.imgur.com/yCN9Piq.jpeg",
+ "https://imgur.com/gallery/PTcDSy4.jpeg",
  "https://i.imgur.com/IpA5QUo.jpeg",
  "https://i.imgur.com/Sgz38xm.jpeg",
  "https://i.imgur.com/UZ7CiLk.jpeg",
