@@ -135,7 +135,7 @@ module.exports.run = async function ({ api, event, args, getText }) {
 	// 🔰𝐑𝐀𝐇𝐀𝐓 𝐈𝐒𝐋𝐀𝐌🔰
 	// =========================
 	let body = `╭━━━━━━━━━━━━━━━━╮
-┃ 🔰${global.config.BOTNAME || "𝐑𝐀𝐇𝐀𝐓 𝐁𝐎𝐓"}
+┃ 🔰${global.config.BOTNAME || "SUMIN BOT"}
 ┃ 📂𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐒𝐓𝐎𝐑𝐄
 ┣━━━━━━━━━━━━━━━━┫`;
 
@@ -151,7 +151,7 @@ module.exports.run = async function ({ api, event, args, getText }) {
 	body += `┣━━━━━━━━━━━━━━━━┫
 ┃➪𝐏𝐫𝐞𝐟𝐢𝐱: ${prefix}
 ┃➪𝗧𝗼𝘁𝗮𝗹 𝗖𝗺𝗱: ${commands.size}
-┃➪𝙊𝙬𝙣𝙚𝙧: 𝙍𝙖𝙝𝙖𝙩 𝙄𝙨𝙡𝙖𝙢
+┃➪𝙊𝙬𝙣𝙚𝙧: SUMON BOT
 ╰━━━━━━━━━━━━━━━━╯`;
 	try {
 		const attachments = getVideoAttachment();
