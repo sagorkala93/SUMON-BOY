@@ -27,7 +27,7 @@ module.exports.run = async function ({ api }) {
     (birthday - now) / (1000 * 60 * 60 * 24)
   );
 
-  const link = "\n\n🔗 m.me/61582708907708";
+  const link = "\n\n🥵MD SUMON ISLAM🥵 ";
   let message = "";
 
   // ⏳ 12 days countdown
