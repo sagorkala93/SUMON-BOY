@@ -17,7 +17,7 @@
     "PASSWORD": "",
     "OTPKEY": "",
     "BOTNAME": "🔰SUMON BOT🔰",
-    "PREFIX": "/",
+    "PREFIX": ".",
     "ADMINBOT": [
         "61586724548553",
         "",
