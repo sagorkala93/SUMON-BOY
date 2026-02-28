@@ -33,7 +33,7 @@ module.exports.run = async function ({ api }) {
   // ⏳ 12 days countdown
   if (diffDays <= 12 && diffDays > 0) {
     message =
-      `📢 Rahat boss এর জন্মদিন আসছে!\n\n` +
+      `📢 Sumon boss এর জন্মদিন আসছে!\n\n` +
       `⏳ বাকি ${diffDays} দিন 🎂\n` +
       `🥳 সবাই প্রস্তুত থাকো উইশ করার জন্য 💙` +
       link;
@@ -41,9 +41,9 @@ module.exports.run = async function ({ api }) {
   // 🎉 Birthday day
   else if (diffDays === 0) {
     message =
-      `🎉 আজ Rahat boss এর জন্মদিন!\n\n` +
+      `🎉 আজ Sumon boss এর জন্মদিন!\n\n` +
       `🥳 সবাই উইশ করো 💙\n` +
-      `🎂 6 February 2009` +
+      `🎂 12 February 2009` +
       link;
   } else {
     return;
