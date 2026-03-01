@@ -85,7 +85,7 @@ module.exports.run = async function ({ api, event, args }) {
 
 `;
 
-    await api.editMessage(msg, wait.messageID);
+  awaitapi.editMessage(msg, wait.messageID);
   } catch (err) {
     api.sendMessage(
       `❌ Error: ${err.message}`,
